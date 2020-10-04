@@ -48,10 +48,18 @@
             "type": "string",
             "description": "Version of Beckn domain level schema being used"
         },
+        "bap_id" : {
+            "type" : "string",
+            "description": "ID of the BAP. This will remain constant throughout the life of a BAP"
+        },
         "bap_uri" : {
             "type" : "string",
             "format" : "uri",
             "description": "URI of the BAP. Typically a URL"
+        },
+        "bpp_id" : {
+            "type" : "string",
+            "description": "ID of the BPP. This will remain constant throughout the life of a BPP"
         },
         "bpp_uri" : {
             "type" : "string",
