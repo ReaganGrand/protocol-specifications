@@ -68,11 +68,11 @@
         },
         "transaction_id": {
             "type": "string",
-            "description": "This is a unique value which persists across all API calls from search through confirm"
+            "description": "This is a unique value which persists across all API calls in a single order lifecycle"
         },
         "message_id" : {
             "type": "string",
-            "description": "This is a unique value which persists during a request / callback cycle."
+            "description": "This is a unique value which persists during a request / callback cycle. For example, during a search, the BAP generates the message_id"
         },
         "timestamp": {
             "type": "string",
